@@ -1,0 +1,9 @@
+Test_ID,A,B,C,Expected_X,Expected_Y,Expected_F,Measured_X_V,Measured_Y_V,Measured_F_V,LED_States,Pass_Fail
+1,0,0,0,0,1,1,0,4.53,4.47,X=0 Y=1 F=1,Pass
+2,0,0,1,0,0,0,0,0,0,X=0 Y=0 F=0,Pass
+3,0,1,0,0,1,1,0,4.52,4.40,X=0 Y=1 F=1,Pass
+4,0,1,1,0,0,0,0,0,0,X=0 Y=0 F=0,Pass
+5,1,0,0,0,1,1,0,4.45,4.53,X=0 Y=1 F=1,Pass
+6,1,0,1,0,0,0,0,0,0,X=0 Y=0 F=0,Pass
+7,1,1,0,1,1,1,4.43,4.56,4.54,X=1 Y=1 F=1,Pass
+8,1,1,1,1,0,1,4.49,0,4.51,X=1 Y=0 F=1,Pass
