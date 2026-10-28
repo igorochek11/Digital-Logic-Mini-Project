@@ -34,7 +34,6 @@ All eight recorded LED patterns matched the expected outputs. HIGH readings were
 ## Notes
 
 - These were static logic tests; switching speed was not measured.
-- Separate HIGH and LOW voltage readings for inputs A, B and C were not logged.
 - The report includes the soldering joints and improvements I would make.
 
 ## Photos
