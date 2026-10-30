@@ -2,7 +2,7 @@
 
 **Igor Subbotin**
 
-I built a three-input circuit using AND, NOT and OR gates. I tested all eight input combinations with LEDs and a Klein MM420 multimeter. The recorded outputs matched the truth table in all eight tests. I also checked an open LED connection and soldered a separate LED circuit.
+I built a three-input circuit using AND, NOT and OR gates. I tested all eight input combinations with LEDs and a Klein MM420 multimeter. The recorded outputs matched the truth table in all eight tests. I also created an open connection on purpose, found it with the multimeter and fixed it. I soldered a separate LED circuit for practice.
 
 ## Parts
 
@@ -29,11 +29,11 @@ X = A AND B, Y = NOT C, F = X OR Y.
 
 ## Results
 
-All eight recorded LED patterns matched the expected outputs. HIGH readings were 4.40-4.56 V and LOW readings were recorded as 0 V. With the LED F branch open, the photo shows 4.73 V at the output while the LED is off. After reconnecting it, the LED lit and the reading was 4.47 V. The separate soldered LED worked with a measured supply of 4.94 V.
+All eight recorded LED patterns matched the expected outputs. HIGH readings were 4.40-4.56 V and LOW readings were about 0 V. With the LED F branch open, the photo shows 4.73 V at the output while the LED is off. After reconnecting it, the LED lit and the reading was 4.47 V. The separate soldered LED worked with a measured supply of 4.94 V.
 
 ## Notes
 
-- These were static logic tests; switching speed was not measured.
+- Separate HIGH and LOW voltage readings for inputs A, B and C were not logged.
 - The report includes the soldering joints and improvements I would make.
 
 ## Photos
